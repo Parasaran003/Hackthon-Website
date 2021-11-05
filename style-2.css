@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@1,300&display=swap');
+/* boiler plate for css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.navbar{
+    height: 12vh;
+    background-color: #2171ce;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    position: fixed;
+    z-index: 1000;
+}
+.navbar .logo{
+     color: white;
+     font-size: 30px;
+     font-weight: 600;
+}
+.navbar .navlinks ul{
+    width: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navbar .navlinks {
+    display: flex;
+    margin-right: 60px;
+    justify-content: space-between;
+    
+}
+.navbar .navlinks .navlink{
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbar .navlinks .navlink.h{
+    margin-right: 70px;
+}
+.navbar .navlinks .navlink.i{
+    margin-right: 20px;
+}
+.navbar .navlinks .navlink.c{
+    margin-left: 50px;
+}
+.navbar .navlinks .navlink:hover{
+    color: black;
+    transform: scale(1.07);
+}
+.mainline{
+    height: 89vh;
+    width:100%;
+    background-image: url(https://bpmelectric.b-cdn.net/wp-content/uploads/2019/03/abbotsord-electrician-is-checking-electric-panel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mainline .overlay{
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items:left;
+    flex-direction: column;
+}
+.mainline .overlay .card{
+    width: 500px;
+    height: 500px;
+    box-shadow:0px 0px 3px 1px whitesmoke;
+    background-color: #2171ce;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 700px;
+    margin-top: 30px;
+}
+.mainline .overlay .card .cTitle.a{
+    margin-bottom: 150px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+.mainline .overlay .card .cTitle.s{
+    margin-top: -120px;
+     color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 87px;
+}
+.mainline .overlay .card .cTitle.v{
+    margin-top: 30px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 87px;
+    margin-bottom: 20px;
+}
+.mainline .overlay .card .sTitle.v{
+    margin-left: 30px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 87px;
+}
+.mainline .overlay .card .sTitle.c{
+    margin-left: 30px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 87px;
+}
+.mainline .overlay .card .cTitle.e{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin-right: 40px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.btn{
+    background-color: black;
+    padding: 15px 30px;
+    border-radius: 3px;
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 1620px;
+    color: white;
+    outline: white solid;
+    box-shadow: 0px 0px 3px 2px;
+    margin-left: 1580px;
+    margin-top: 40px;   
+}
+.btn:hover{
+    color: red;
+    transform: scale(1.04);
+}
+.Navbar{
+    height: 12vh;
+    background-color: #2171ce;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.Navbar .navlinks ul{
+    width: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.Navbar .navlinks {
+    display: flex;
+    margin-right: 60px;
+    justify-content: space-between;
+    
+}
+.Navbar .navlinks .navlink{
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Navbar .navlinks .navlink.a{
+    margin-left: 1600px;
+    margin-top: 20px;
+}
+.Navbar .navlinks .navlink.c{
+    margin-top: 20px;
+}
+.Navbar .navlinks .navlink.cp{
+    margin-top: 80px;
+    margin-right: 2000px;
+    margin-left: -200px;
+}
+.Navbar .navlinks .navlink:hover{
+    color: black;
+    transform: scale(1.07);
+}

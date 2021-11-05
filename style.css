@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:ital,wght@1,300&display=swap');
+/* boiler plate for css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.navbar{
+    height: 12vh;
+    background-color: #2171ce;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    position: fixed;
+    z-index: 1000;
+}
+.navbar .logo{
+     color: white;
+     font-size: 30px;
+     font-weight: 600;
+}
+.navbar .navlinks ul{
+    width: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navbar .navlinks {
+    display: flex;
+    margin-right: 60px;
+    justify-content: space-between;
+    
+}
+.navbar .navlinks .navlink{
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+}
+.navbar .navlinks .navlink.h{
+    margin-right: 70px;
+}
+.navbar .navlinks .navlink.i{
+    margin-right: 20px;
+}
+.navbar .navlinks .navlink.c{
+    margin-left: 50px;
+}
+.navbar .navlinks .navlink:hover{
+    color: black;
+    transform: scale(1.07);
+}
+.mainline{
+    height: 89vh;
+    width:100%;
+    background-image: url(https://bpmelectric.b-cdn.net/wp-content/uploads/2019/03/abbotsord-electrician-is-checking-electric-panel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.mainline .overlay{
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items:left;
+    flex-direction: column;
+}
+.mainline .overlay .title{
+    color: black;
+    font-size: 46px;
+    font-weight: 1000;
+    margin-bottom: 120px;
+    margin-left: 15px;
+    margin-left: 75px;
+}
+.mainline .overlay .text{
+    color: rgb(253, 253, 253);
+    font-size:35px;
+    font-weight: 650;
+    margin-left: 75px;
+    margin-bottom: 0px;
+    margin-bottom: 70px;
+    animation: colorchange 2.5s linear infinite;
+}
+.mainline .overlay .button{
+    color: white;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.button{
+     background-color: #2171ce;
+     padding: 15px 30px;
+     border-radius: 3px;
+     font-weight: 800;
+     font-size: 20px;
+     margin-right: 1620px;
+     outline: white solid;
+     box-shadow: 0px 0px 3px 2px;
+     margin-left: 20px;     
+}
+.button:hover{
+    transform: scale(1.022);
+}
+@keyframes colorchange{
+    0%   {color:orange;}
+    20%   {color:blueviolet;}
+    40%  {color:yellow;}
+    60%  {color:orangered;}
+    80%  {color:green;}
+    100%  {color:black;}
+}
+.money{
+    height: 89vh;
+    width:100%;
+    background-image: url(https://static.wixstatic.com/media/10c718cd8d5e4283a6d095a32e464f2b.jpg/v1/fill/w_1000,h_668,al_c,q_90,usm_0.66_1.00_0.01/10c718cd8d5e4283a6d095a32e464f2b.jpg);
+    background-repeat: no-repeat;
+    margin-top: -70px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+}
+.money .cardrow .card{
+    width:  570px;
+    height: 570px;
+    box-shadow:0px 0px 3px 1px whitesmoke;
+    background-color: #2171ce;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.money .overlay .Title{
+    margin-left: 870px;
+    font-size: 46px;
+    font-weight: 700px;
+}
+.money .cardrow .card.w{
+    margin-left: 720px;
+    margin-top: 100px;
+}
+.money .card .mform .ul{
+    margin-bottom: 60px;
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.money .card .mform .password{
+    box-shadow: 0px 0px 3px 2px black;
+    border: 45px;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.money .card .mform .userid{
+    box-shadow: 0px 0px 3px 2px;
+    border: 45px;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    top: -10px;
+    margin-top: 5px;
+}
+.money .card  .u{
+    margin-top: 2px;
+}
+.money .card .mform .p{
+    margin-top: 5px;
+}
+.money .card  .btn{
+    color: white;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+     padding: 8px 20px;
+     border-radius: 5px;
+     font-size: 20px;
+     font-weight: 800;
+     box-shadow: 0px 0px 3px  3px white;
+     margin-top: 30px;
+     justify-content: center;
+     align-items: center;
+}
+.money .card .btn:hover{
+    transform: scale(1.03);
+     background-color:black;
+}
+.Navbar{
+    height: 12vh;
+    background-color: #2171ce;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-top: 65px;
+}
+.Navbar .navlinks ul{
+    width: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.Navbar .navlinks {
+    display: flex;
+    margin-right: 60px;
+    justify-content: space-between;
+    
+}
+.Navbar .navlinks .navlink{
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Navbar .navlinks .navlink.a{
+    margin-left: 1600px;
+    margin-top: 20px;
+}
+.Navbar .navlinks .navlink.c{
+    margin-top: 20px;
+}
+.Navbar .navlinks .navlink.cp{
+    margin-top: 80px;
+    margin-right: 2000px;
+    margin-left: -200px;
+}
+.Navbar .navlinks .navlink:hover{
+    color: black;
+    transform: scale(1.07);
+}
+.scrollbutton{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: circle(50%);
+    cursor: pointer;
+
+}
+.scrollbutton .icon{
+    background-color: white;
+}
